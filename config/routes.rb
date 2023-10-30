@@ -7,4 +7,10 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+  root "static_pages#home"
+  get "services" => "static_pages#services"
+  get "parteners" => "static_pages#parteners"
+  get "projects" => "static_pages#projects"
+  get "team" => "static_pages#team"
+  get "contact" => "contact_form#new"
 end

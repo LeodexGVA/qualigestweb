@@ -1,0 +1,81 @@
+<div class="bg-video vh-100 position-relative bg-opacity">
+  <div class="text-center text-black h-100 position-relative z-index-1">
+    <h1 class="position-absolute top-50 start-50 translate-middle">Bienvenue chez Entreprise de Construction</h1>
+    <p class="position-absolute top-75 start-50 translate-middle">Expérience et qualité à votre service</p>
+    <!-- Balise video pour intégrer la vidéo MP4 en arrière-plan -->
+    <video autoplay loop muted class="bg-video">
+      <source src="https://res.cloudinary.com/dwlskew13/video/upload/f_auto:video,q_auto/video_vue_geneve" type="video/mp4">
+      Votre navigateur ne prend pas en charge la lecture de la vidéo.
+    </video>
+  </div>
+
+  <!-- Carousel de texte superposé -->
+  <div id="text-carousel" class="carousel slide position-absolute top-50 start-50 translate-middle" data-bs-ride="carousel" data-bs-interval="3000">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <h3>Qualité</h3>
+        <p>Description du texte 1.</p>
+      </div>
+      <div class="carousel-item">
+        <h3>Transparence</h3>
+        <p>Description du texte 2.</p>
+      </div>
+      <div class="carousel-item">
+        <h3>Excellence</h3>
+        <p>Description du texte 3.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<%# Section des cartes %>
+<section class="my-5">
+  <div class="container">
+    <div class="row justify-content-between">
+      <!-- Première carte -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="image1.jpg" class="card-img-top" alt="Image 1">
+          <div class="card-body">
+            <h5 class="card-title">Titre de la carte 1</h5>
+            <p class="card-text">Description de la carte 1.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Deuxième carte -->
+      <div class="col-md-4">
+        <!-- Ajoute la deuxième carte ici -->
+      </div>
+      <!-- Troisième carte -->
+      <div class="col-md-4">
+        <!-- Ajoute la troisième carte ici -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<%# Section avec image à gauche et texte à droite %>
+<section class="container my-5">
+  <div class="row">
+    <div class="col-md-6">
+      <img src="image-gauche.jpg" class="img-fluid" alt="Image à gauche">
+    </div>
+    <div class="col-md-6">
+      <h2>Titre du contenu</h2>
+      <p>Description du contenu à droite.</p>
+    </div>
+  </div>
+</section>
+
+<%# Section des partenaires %>
+<section class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Nos Partenaires</h2>
+    <!-- Ajoute le bandeau logo défilant ici -->
+  </div>
+</section>

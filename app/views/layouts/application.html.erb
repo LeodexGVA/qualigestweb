@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Qualigestweb</title>
+    <title>QualiGest</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
+    <%= favicon_link_tag 'https://res.cloudinary.com/dwlskew13/image/upload/f_auto,q_auto/favicon_qualigest' %>
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
   </head>
 
   <body>
-    <%= yield %>
+    <div class="wrapper"></div>
+      <%= render "shared/navbar" %>
+      <%= yield %>
+    </div>
+    <%= render "shared/footer" %>
   </body>
 </html>
