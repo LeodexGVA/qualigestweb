@@ -26,6 +26,28 @@ gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
+# Use bootstrap
+gem "bootstrap", "~> 5.2"
+
+# Use autoprefixer to add vendor prefixes to CSS rules [
+gem "autoprefixer-rails"
+
+# Use font-awesome
+gem "font-awesome-sass", "~> 6.1"
+
+# Use simple form
+gem "simple_form"
+
+# Use sassc-rails to compile SCSS to CSS
+gem "sassc-rails"
+
+# dotenv is a zero-dependency module that loads environment variables from a .env file into ENV [
+gem "dotenv-rails"
+
+# Use cloudinary to upload images
+gem "cloudinary"
+
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
 
