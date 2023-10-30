@@ -18,7 +18,7 @@ gem "puma", ">= 5.0"
 gem "importmap-rails"
 
 # Use bootstrap
-gem "bootstrap", "~> 5.2"
+gem "bootstrap", "~> 5.3"
 
 # Use autoprefixer to add vendor prefixes to CSS rules [
 gem "autoprefixer-rails"
