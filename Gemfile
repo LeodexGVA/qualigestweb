@@ -20,7 +20,7 @@ gem "importmap-rails"
 # Use bootstrap
 gem "bootstrap", "~> 5.3"
 
-# Use autoprefixer to add vendor prefixes to CSS rules [
+# Use autoprefixer to add vendor prefixes to CSS rules
 gem "autoprefixer-rails"
 
 # Use font-awesome
@@ -41,11 +41,15 @@ gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
-# dotenv is a zero-dependency module that loads environment variables from a .env file into ENV [
+
+# dotenv is a zero-dependency module that loads envgem 'jquery-rails'fironment variables from a .env file into ENV [
 gem "dotenv-rails"
 
 # Use cloudinary to upload images
 gem "cloudinary"
+
+gem 'owlcarousel-rails'
+
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"

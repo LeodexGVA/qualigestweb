@@ -169,6 +169,7 @@ GEM
     nio4r (2.5.9)
     nokogiri (1.15.4-x86_64-linux)
       racc (~> 1.4)
+    owlcarousel-rails (2.2.3.5)
     popper_js (2.11.8)
     psych (5.1.1.1)
       stringio
@@ -294,6 +295,7 @@ DEPENDENCIES
   font-awesome-sass (~> 6.1)
   importmap-rails
   jbuilder
+  owlcarousel-rails
   puma (>= 5.0)
   rails (~> 7.1.1)
   sassc-rails
